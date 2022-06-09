@@ -4,8 +4,8 @@ import { Link, } from 'react-router-dom';
 const Navbar = () => {
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='home#about'>About</Link></li>
-        <li><Link to='home#portfolio'>Portfolio</Link></li>
+        <li><Link to="home#about">About</Link></li>
+        <li><Link to="home#portfolio">Projects</Link></li>
         <li><Link to='home#contact'>Contact Me</Link></li>
     </>
     return (
@@ -20,16 +20,14 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Tashfia Islam</a>
+                <a class=" normal-case text-2xl text-primary ">Tashfia Islam</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     {menuItems}
                 </ul>
             </div>
-            <div class="navbar-end">
-                <a class="btn">Resume</a>
-            </div>
+
         </div>
     );
 };

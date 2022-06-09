@@ -8,8 +8,11 @@ const About = () => {
                 <div>
                     <h1 class="text-2xl font-bold">Hello!</h1>
                     <h1 class="text-5xl font-bold">I am Tashfia Islam</h1>
-                    <p class="py-8 text-2xl">I am a Junior Web developer and I like to code simple beutiful websites.</p>
-                    <button class="btn btn-secondary">Get Started</button>
+                    <p class="py-8 text-2xl">I am a MERN stack web developer trying to gain confidence using my potential in the field of “Web Development”. I will express my innovative creative skills for self and company growth.</p>
+                    <div>
+                        <button class="btn btn-outline btn-primary mx-2"><a href='https://drive.google.com/file/d/16tn4DlMUTwzH1wSMEY74uDiMNFEP4hr3/view?usp=sharing' alt='resume link'>Resume</a></button>
+                        <button class="btn btn-outline btn-secondary"><a href='https://www.linkedin.com/in/tashfia-islam/' alt='resume link'>Linkdin</a></button>
+                    </div>
                 </div>
             </div>
         </div>
