@@ -1,14 +1,15 @@
 import React from 'react';
-
+import picture from '../../assets/mypicture.jpg'
 const About = () => {
     return (
         <div id="about" class="hero min-h-screen bg-base-200">
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                <img style={{ height: "500px" }} src={picture} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
-                    <h1 class="text-5xl font-bold">Box Office News!</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <h1 class="text-2xl font-bold">Hello!</h1>
+                    <h1 class="text-5xl font-bold">I am Tashfia Islam</h1>
+                    <p class="py-8 text-2xl">I am a Junior Web developer and I like to code simple beutiful websites.</p>
+                    <button class="btn btn-secondary">Get Started</button>
                 </div>
             </div>
         </div>
