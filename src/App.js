@@ -1,8 +1,8 @@
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from './Page/Shared/Navbar';
 import Home from './Page/Home/Home';
-import About from './Page/Home/About';
+
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </div>
   );
