@@ -16,15 +16,15 @@ const About = () => {
                             wrapper="b"
                             steps={[
                                 'Web Developer',
-                                900,
+                                1000,
                                 'MERN Stack Developer',
                                 900,
                                 'React Developer',
-                                900,
+                                1000,
                                 'Javascript Developer',
                                 900,
                                 'Frontend Developer',
-                                900,
+                                1000,
                                 'Programmer',
                                 900
                             ]}
