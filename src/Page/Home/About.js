@@ -37,8 +37,8 @@ const About = () => {
                     <div>
                         <button class="btn btn-outline btn-secondary mx-2"><a href='https://drive.google.com/file/d/16tn4DlMUTwzH1wSMEY74uDiMNFEP4hr3/view?usp=sharing' alt='resume link'>Have a look in my Resume</a></button>
 
-                        <button class="btn btn-outline btn-primary mx-2"><a href='https://www.linkedin.com/in/tashfia-islam/' alt='resume link'>Linkdin</a></button>
-                        <button class="btn btn-outline btn- neutral"><a href='https://github.com/tashfiaislamistila' alt='resume link'>Github</a></button>
+                        <button class="btn btn-outline btn-primary mx-2"><a href='https://www.linkedin.com/in/tashfia-islam/' alt='resume link'>Linkdin Profile</a></button>
+                        <button class="btn btn-outline btn- neutral mx-2"><a href='https://github.com/tashfiaislamistila' alt='resume link'>Github</a></button>
                     </div>
                     {/* <div>
                         <button class="btn btn-outline">
