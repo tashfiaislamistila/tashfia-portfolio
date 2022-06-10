@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
+import ti from '../../assets/ti.png'
 
 const Navbar = () => {
     const menuItems = <>
@@ -21,7 +22,8 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class=" normal-case text-2xl text-primary ">Tashfia Islam</a>
+                {/* <a class=" normal-case text-2xl text-primary ">Tashfia Islam</a> */}
+                <img style={{ height: "50px", width: "50px" }} src={ti} alt="" />
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
