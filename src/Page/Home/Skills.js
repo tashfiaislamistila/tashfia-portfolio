@@ -3,9 +3,9 @@ import React from 'react';
 const Skills = () => {
     return (
         <div class="px-16 ">
-            <h1 class="text-5xl text-center mt-8 font-bold">Skills</h1>
-            <div className='flex pl-16'>
-                <div class="card w-96 bg-neutral mt-4 text-primary-content mr-7 pt-6">
+            <h1 class="text-5xl text-center mt-8 font-bold">My Skills</h1>
+            <div className='grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 grid-cols-1 mx-0 justify-items-center md:mx-60'>
+                <div class="card max-w-lg bg-neutral mt-4 text-primary-content pt-6">
                     <div class="card-body">
                         <h2 class="card-title">Frontend Skill</h2>
                         <div>
@@ -29,7 +29,7 @@ const Skills = () => {
 
                     </div>
                 </div>
-                <div class="card w-96 bg-neutral mt-4 text-primary-content mr-7 pt-6">
+                <div class="card max-w-lg bg-neutral mt-4 text-primary-content pt-6">
                     <div class="card-body">
                         <h2 class="card-title">Backend Skill</h2>
                         <div>
@@ -42,7 +42,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-neutral mt-4 text-primary-content pt-6">
+                <div class="card max-w-lg bg-neutral mt-4 text-primary-content pt-6">
                     <div class="card-body">
                         <h2 class="card-title">Tools</h2>
                         <div>

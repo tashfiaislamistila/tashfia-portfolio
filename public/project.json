@@ -2,43 +2,25 @@
     {
         "id": 1,
         "name": "Gardeners tools",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
+        "website": "https://gardeners-tool-management.web.app/",
+        "Github": "https://github.com/tashfiaislamistila/gardeners-tool-manufacturer-management-client",
+        "description": "App has private route and provides separate dashboard for admin and user. Payment system implemented using stripe and user order has protected route.  Admin can add new tools, make new admin, and change customer order status.",
+        "img": "https://i.ibb.co/CnbNJsx/gardeners-tool.png"
     },
     {
         "id": 2,
-        "name": "",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
+        "name": "Super Shop Grocery Stock",
+        "website": "https://warehouse-management-sys-d4e13.web.app/",
+        "Github": "https://github.com/tashfiaislamistila/supershop-grocery-stock-warehouse-management-client",
+        "description": "Employees can manage inventory stock by adding and deleting products. And this route is protected, i.e., employees need to be signed in.Employees can manage their added product by their email id",
+        "img": "https://i.ibb.co/6vjFfgZ/supershop.png"
     },
     {
         "id": 3,
-        "name": "",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
-    },
-    {
-        "id": 4,
-        "name": "",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
-    },
-    {
-        "id": 5,
-        "name": "",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
-    },
-    {
-        "id": 6,
-        "name": "",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": ""
+        "name": "Individual Service Provider",
+        "website": "https://independent-service-prov-438c6.web.app/",
+        "Github": "https://github.com/tashfiaislamistila/learn-with-ayman-sadik-independent-service-provider",
+        "description": " This is an independent service provider project made with react i.e., employees need to be signed in.User can purchase any course from checkout route only after signing in.",
+        "img": "https://i.ibb.co/0c1Q1JL/individualservice.png"
     }
 ]
