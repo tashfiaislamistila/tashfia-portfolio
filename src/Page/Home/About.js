@@ -32,7 +32,7 @@ const About = () => {
                             ]}
                         />
                     </h1>
-                    <p class="py-8 text-2xl">I am a self-curious web developer trying to gain confidence using my potential in the field of “Web Development”. I will express my innovative creative skills for self and company growth.
+                    <p class="py-8 text-2xl">I am a self-curious web developer trying to gain confidence using my potential in the field of “Web Development”. I will express my innovative creative skills for self and company growth.I am Enthusiastic about web technologies and development.
                         I am excited to start my career as a web developer as well as to enhance my workplace and reputation day by day.</p>
                     <div>
                         <button class="btn btn-outline btn-secondary mx-2"><a href='https://drive.google.com/file/d/16tn4DlMUTwzH1wSMEY74uDiMNFEP4hr3/view?usp=sharing' alt='resume link'>Have a look in my Resume</a></button>
