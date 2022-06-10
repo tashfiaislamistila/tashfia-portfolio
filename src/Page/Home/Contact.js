@@ -7,8 +7,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_elksewd', 'template_qxubn3w', form.current, 'template_qxubn3w')
-        e.target.reset()
+        emailjs.sendForm('service_elksewd', 'template_qxubn3w', form.current, '05NbpC7pPFq2OQmEd')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
