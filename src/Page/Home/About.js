@@ -1,8 +1,7 @@
 import React from 'react';
-import picture from '../../assets/mypicture.jpg'
 import picture2 from '../../assets/my-picture2.jpg'
 import Typical from 'react-typical'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGithub, falinkedin } from '@fortawesome/free-brand-svg-icons';
 
 const About = () => {
